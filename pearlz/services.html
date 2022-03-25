@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pearlz Consulting</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+</head>
+<body>
+    <!-- Navbar -->
+
+    <section class="bg-top fixed-top hide">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-3"></div>
+                <div class="col-lg-5 py-0 my-0">
+                    <ul class="d-flex p-0 text-16 f-300 m-0 list-unstyled text-light">
+                    <li class="px-3">
+                        Sales
+                        <span class="f-600">
+                            012 345 6789
+                        </span>
+                    </li>
+
+                    <li class="px-3">
+                        Support
+                        <span class="f-600">
+                            234 567 8900
+                        </span>
+                    </li>
+
+                    <li class="px-3">
+                        |     
+                        <span class="f-600 ps-3">
+                            Contact
+                        </span>
+                        
+                    </li>
+                </ul></div>
+            </div>
+        </div>
+        
+      
+    </section>
+        <!-- this is the element I'm trying to work on,  it is currently transparent but iwant it to be once i scroll so the info in the other sections are not visible behind it-->
+      <nav id="nav-bg" class="navbar navbar-expand-lg bg-nav py-0 magtop mt-4 fixed-top text-21 f-500" >
+        
+                
+
+
+               <div class="container py-0">
+
+            <a href="#" class="navbar-brand">
+                
+                     <img src="img/Pearlz-Consulting-Logo-C@2x.png" class="main-logo-size"  alt="" >
+               
+               
+
+            </a>
+            
+
+           
+
+            <button 
+            class="navbar-toggler collapsed" 
+           data-bs-target="#navmenu" 
+           data-bs-toggle="collapse"
+           id="tog-btn" onclick="myFunction() ">
+               <span class="line text-grey"></span> 
+               <span class="line text-grey"></span> 
+               <span class="line text-grey"></span>
+       </button>
+
+               
+               
+
+            <div class="collapse navbar-collapse text-21 f-500  text-md" id="navmenu">
+                 <ul class="navbar-nav ms-auto text-20">
+                     <li class="nav-item px-4">
+                         <a href="#about" class="nav-link pad-mob text-light">About Us</a>
+                     </li>
+                     <li class="nav-item px-4">
+                       <a href="services.html" class="nav-link pad-mob text-light">Services</a>
+                   </li>
+                   <li class="nav-item px-4">
+                       <a href="#resources" class="nav-link pad-mob text-light">News</a>
+                   </li>
+                    <li class="nav-item px-4">
+                        <a href="#contact" class="nav-link pad-mob text-light">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item px-4">  
+                    <button type="button" class="btn mag-mob mag-mob-bot text-18 btn-outline-light text-primary bg-light">Get a Quote</button>
+                    </li>
+                 </ul>
+            </div>
+           </div>
+        
+        
+        
+        
+    </nav>
+
+    <!-- Intro -->
+
+   <section class="section-1 ">
+       <div class="container">
+           <div class="row">
+            <h1 class="text-84 f-700 pt-0 ">What <span class="text-blue">We do</span></h1>
+            <p>We provide high-quality services in these areas to ensure that you always have the best hands-on deck. Our available solutions enable you to move more quickly, gain clarity, and increase security. With additional solutions, you can easily scale and fortify any of your platforms. Take advantage of our expert people, solutions, and services to gain a competitive advantage.</p>
+           </div>
+       </div>
+   </section>
+
+   <section class="bg-services">
+    <div class=" what-we-do">
+        <div class="row">
+            <div class="pb-5 ">
+             <div class="card px-4 w-50 py-4 text-dark" >
+                 <div class="img-size">
+                     <img src="img/software-development.png" class="card-img-top img-fluid" alt="...">
+                 </div>
+                 
+                   <h3 class="card-title text-24 fw-normal py-4">1. Software Development </h3>
+ 
+                    <div class="pt-3 separator">
+                         <p class="card-text text-15 fw-normal ellipsis">We create customized software to meet the needs of your organization. Our expert team listens to the functionalities you require and brings them to life in the most efficient ways.</p>
+                    </div>
+               </div>
+            </div>
+        </div>
+            <div class="row">
+            <div class="pb-5">
+             <div class="card px-4 w-50 py-4 text-dark" >
+                 <div class="img-size">
+                     <img src="img/cloud.png" class="card-img-top img-fluid" alt="...">
+                 </div>
+                 
+                   <h3 class="card-title text-24 fw-normal py-4">2. Cloud Engineering </h3>
+ 
+                    <div class="pt-3 separator">
+                         <p class="card-text text-15 fw-normal ellipsis">We design and manage your cloud infrastructure to ensure its security and efficiency. Our team is made up of the best cloud architects (those who design cloud solutions), developers (those who code for the cloud), and administrators (those who work with cloud networks). They all work together to ensure you get the best.</p>
+                    </div>
+               </div>
+            </div>
+        </div>
+            <div class="row">
+            <div class="pb-5">
+             <div class="card px-4 w-50 py-4 text-dark" >
+                 <div class="img-size">
+                     <img src="img/project.png" class="card-img-top img-fluid" alt="...">
+                 </div>
+                 
+                   <h3 class="card-title text-24 fw-normal py-4">3. Project Management </h3>
+ 
+                    <div class="pt-3 separator">
+                         <p class="card-text text-15 fw-normal ellipsis">It is our pleasure to work on your project. We are committed to following a step-by-step process from product development, business justification, planning, verification, forecasting, pricing, product launch, and marketing of a product or products at all stages of the product lifecycle to ensure your project meets all set goals and is sustainable.</p>
+                    </div>
+               </div>
+            </div>
+            </div>
+            <div class="row ">
+            <div class="pb-5 w-50">
+             <div class="card px-4 py-4 text-dark" >
+                 <div class="img-size">
+                     <img src="img/remote.png" class="card-img-top img-fluid" alt="...">
+                 </div>
+                 
+                   <h3 class="card-title text-24 fw-normal py-4">4. Remote/Virtual Desktop Services</h3>
+ 
+                    <div class="pt-3 separator">
+                         <p class="card-text text-15 fw-normal ellipsis">We ensure that you can access your desktop and applications from any endpoint device, and that IT organizations can deploy and manage these desktops from a centralized data center. Your workspace is both safe and mobile. This mobility allows you to easily access your work space from any location and on any device you trust.</p>
+                    </div>
+               </div>
+            </div>
+        </div>
+    
+   </div>
+   </section>
+   
+   <section class="bg-top mt-5 pt-5 mb-5 pb-5" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-quad">
+    <div class="container py-5">
+     <div class="row">
+         <h3 class="text-24 f-700 text-white">
+            Software SERVICES
+         </h3>
+         <div class="col-lg-6 col-md-12 f-800 text-60 text-white lh-70 border-data">
+            Our software Development Process
+         </div>
+         <div class="col-lg-6 col-md-12 text-18 fw-normal lh-27 text-white pt-mob">
+            We have an operational structure in place to ensure that quality is delivered without compromise and with a focus on all of your needs. We use it from the initial contact to the delivery of services. This structure thrives on communication, flexibility, and the needs of the customer.
+         </div>
+     </div>
+    </div>
+
+    <div class="container pt-3 pb-5 dot-border pb-5 ">
+
+     <div class=" row d-flex justify-content-between text-center  text-left text-white g-lg-5 gx-md-3">
+         <div class="col-md-3 py-2  border border-5 m-2">
+             <div class=" px-4 py-4 text-center">
+                 <div class="img-size mauto">
+                     <img src="img/build.png" class="card-img-top img-fluid" alt="...">
+                 </div>
+                 
+                   <h3 class="card-title text-24 fw-normal py-4 f-700">Build </h3>
+ 
+                    <div class="pt-3 ">
+                         <p class="card-text text-15 fw-normal ellipsis">The cloud is built to meet the client's specifications. It is thoroughly inspected to ensure that it checks all of the boxes.</p>
+                    </div>
+               </div>
+         </div>
+
+         <div class="col-md-3 py-2  border border-5 m-2">
+            <div class=" px-4 py-4 text-center">
+                <div class="img-size mauto">
+                    <img src="img/deploy.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                
+                  <h3 class="card-title text-24 fw-normal py-4 f-700">Deploy </h3>
+
+                   <div class="pt-3 ">
+                        <p class="card-text text-15 fw-normal ellipsis">Products are tested to ensure that it has effective functionality and is easy to use. If there are any bugs, they are noted and fixed.</p>
+                   </div>
+              </div>
+        </div>
+
+        <div class="col-md-3 py-2  border border-5 m-2">
+            <div class=" px-4 py-4 text-center">
+                <div class="img-size mauto">
+                    <img src="img/feedback.png" class="card-img-top img-fluid" alt="...">
+                </div>
+                
+                  <h3 class="card-title text-24 fw-normal py-4 f-700">Feedback </h3>
+
+                   <div class="pt-3 ">
+                        <p class="card-text text-15 fw-normal ellipsis">The client gains access to the services, tests them, and provides feedback to the team on their satisfaction before the project is handed over.
+                        </p>
+                   </div>
+              </div>
+        </div>
+
+     </div>
+     </div>
+</section>
+
+<section class="pt-5 mt-5 mb-5 pb-5" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-quad">
+       <div class="container py-5">
+        <div class="row">
+            <h3 class="text-24 f-700 text-primary">
+                DATA SERVICES
+            </h3>
+            <div class="col-lg-6 col-md-12 f-800 text-60 text-secondary lh-70 border-data">
+                What Our Data Center Offers
+            </div>
+            <div class="col-lg-6 col-md-12 text-18 fw-normal lh-27 text-grey pt-mob">
+                Pearlz is engineered to deliver you more cost effective options for efficiently managing your global technology. Pearlz is designed with a flexible customer-centric configuration that allows us to locate our data center platform in the markets most advantageous for your business, while providing the flexibility and security necessary to ensure optimal uptime and availability.
+
+            </div>
+        </div>
+       </div>
+
+       <div class="container pt-3 pb-5 pb-5">
+
+        <div class="row text-left g-lg-5 gx-md-3">
+            <div class="col-md-4 py-2 d-flex justify-content-center">
+                <div class="card edge bg-light px-4 py-4 deploy-card" >
+                    <div class="img-size">
+                        <img src="img/deployment-pic.svg" class="card-img-top img-fluid" alt="...">
+                    </div>
+                    
+                      <h3 class="card-title text-24 fw-normal py-4">Hybrid 
+                        <br>
+                       <span class="f-700">Security</span> </h3>
+    
+                       <div class="pt-3 separator">
+                            <p class="card-text text-15 fw-normal">To keep your infrastructure safe, secure, and compliant, you need a multi-layered, defense-in-depth approach backed by professionals who are ready to respond at a moment's notice. 
+                                This is why we provide a broad range of managed security services that you can mix and match to complement your hybrid IT infrastructure. For every solution we deliver, our five-layer defense approach provides comprehensive protection and includes a dedicated team of security engineers and a seasoned CISO.
+                                </p>
+                       </div>
+                     
+        
+                    
+                  </div>
+            </div>
+
+        <div class="col-md-4 py-2 ">
+            <div class="card edge bg-top px-4 py-4 text-light" >
+                <div class="img-size">
+                    <img src="img/compliance-pic.svg" class="card-img-top img-fluid" alt="...">
+                </div>
+                
+                  <h3 class="card-title text-24 fw-normal py-4">Compliance<br>
+                   <span class="f-700">Services</span> </h3>
+
+                   <div class="pt-3 separator2">
+                        <p class="card-text text-15 fw-normal">Pearlz Certified platforms and services make securing and enabling compliance of your hosted infrastructure and applications a lot easier. 
+                            Our compliance framework is built on best practices to address the most stringent controls for physical, network/perimeter, continuous monitoring, system host, and physical access to facilities. Furthermore, DataBank's in-house CISO, dedicated security engineering teams, and proven compliance expertise enable us to take ownership of up to 80% of compliance controls, whereas other providers may only provide 10%.
+                            </p>
+                   </div>
+                 
+    
+                
+              </div>
+        </div>
+
+        <div class="col-md-4 py-2 d-flex justify-content-center">
+            <div class="card edge bg-dark px-4 py-4 text-light" >
+                <div class="img-size">
+                    <img src="img/protection-pic.svg" class="card-img-top img-fluid" alt="...">
+                </div>
+                
+                  <h3 class="card-title text-24 fw-normal py-4">Data <br>
+                   <span class="f-700">Protection</span> </h3>
+
+                   <div class="pt-3 separator">
+                        <p class="card-text text-15 fw-normal">Your entire business is data in the digital economy, and every byte must be safeguarded. However, it is no longer just about data backup; it is also about data recovery. We assist you in developing a recovery and backup strategy by combining proven platforms and technologies with managed compliance and security services. We back up, replicate, and recover your files while meeting FedRAMP, HIPAA/HITECH, PCI-DSS, SSAE 18, FISMA, and GDPR – Privacy Shield compliance requirements.</p>
+                   </div>
+              </div>
+        </div>
+        </div>
+        </div>
+   </section>
+</section>
+
+    <footer class="p-5 bg-dark " >
+
+        <div class="container text-md">
+
+            <div class="row justify-content-center hide pb-4 log-dot-border text-md">
+
+                <div class="col-md-2 py-2 ">
+                    <div class="" >
+                        <div class="footer-img-size1">
+                            <img src="img/brand-01.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        
+                           </div>
+                         
+            
+                        
+                </div>
+    
+                <div class="col-md-2 py-2 ">
+                    <div class="" >
+                        <div class="footer-img-size2">
+                            <img src="img/brand-02.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        
+                           </div>
+                         
+            
+                        
+                </div>
+    
+                <div class="col-md-2 py-2 ">
+                    <div class="" >
+                        <div class="footer-img-size3">
+                            <img src="img/brand-04.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        
+                           </div>
+                         
+            
+                        
+                </div>
+
+                <div class="col-md-2 py-2 ">
+                    <div class="" >
+                        <div class="footer-img-size4">
+                            <img src="img/brand-05.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        
+                           </div>
+                         
+            
+                        
+                </div>
+
+                <div class="col-md-2 py-2 ">
+                    <div class="" >
+                        <div class="footer-img-size5">
+                            <img src="img/brand-06.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        
+                           </div>
+                         
+            
+                        
+                </div>
+            </div>
+
+            </div>
+
+        <div class="container pt-5">
+            <div class="row text-light mob-x text-18 fw-normal gx-2 gy-5">
+                
+                <div class="col-md-3 hide ps-0">
+                    <h3 class="text-25 f-700 pb-3">
+                        About Us
+                    </h3>
+                    <p class="fw-light text-15 fw-normal">
+                        Lorem ipsum dolor sit amet, consecteur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore 
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris
+                    </p>
+                </div>
+
+                
+
+                <div class="col-lg-3  px-5 hide ">
+
+                    <h3 class="text-25 f-700 pb-3">
+                        Our Links
+                    </h3>
+                    <div class="row  text-15 fw-normal">
+                        <div class="col-lg-5">
+                            <ul class="list-unstyled fw-light">
+                             <li class="">
+                                <a href="#home" class=" text-decoration-none text-light">Home</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#about" class="text-decoration-none text-light">About Us</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#services" class="text-decoration-none text-light">Services</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#news" class="text-decoration-none text-light">News</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#team" class="text-decoration-none text-light">Team</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#contact" class="text-decoration-none text-light">Contact Us</a>
+                                 
+                             </li>
+                         </ul> 
+                         </div>
+
+                         <div class="col-lg-7">
+                            <ul class="list-unstyled fw-light">
+                             <li class="">
+                                <a href="#support" class="text-decoration-none text-light">Support</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#privacy-policy" class="text-decoration-none text-light">Privacy Policy</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#terms-0f-service" class="text-decoration-none text-light">Terms Of Service</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#legal" class="text-decoration-none text-light">Legal</a>
+                                 
+                         </ul> 
+                         </div>
+                    </div>
+
+                    
+                    
+                </div>
+
+                <div class="col-lg-3  text-15 hide ps-0">
+                    <h3 class="text-25  f-700 pb-3">
+                    Contact Us
+                    </h3>
+                    
+                    <ul class="list-unstyled px-2">
+                        <li class="fw-light">
+                            <div class="row">
+                                <div class="col-lg-2 bg-primary align-items-center justify-content-center d-flex rounded">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                      </svg>
+                                </div>
+
+                                <div class="col-lg-10 text-15">
+                                    <a href="#address" class="text-decoration-none text-light">1234/Plot No. 39, 15th Phase,
+                                        Colony</a>
+                                    
+                                  </div>
+                            </div>
+                        </li>
+                        <li class="fw-light py-2">
+                            <div class="row">
+                                <div class="col-lg-2 bg-primary align-items-center justify-content-center d-flex rounded">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                      </svg>
+                                </div>
+
+                                <div class="col-lg-10 text-15">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="phone" class="text-decoration-none text-light">012 345 6789</a>
+                                            
+                                        </li>
+
+                                        <li>
+                                            <a href="#phone" class="text-decoration-none text-light">234 567 8900</a>
+                                            
+                                        </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                        </li>
+
+                        <li class="fw-light">
+                            <div class="row">
+                                <div class="col-lg-2 bg-primary align-items-center justify-content-center d-flex rounded">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                                      </svg>
+                                </div>
+
+                                <div class="col-lg-10 text-15">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#email" class="text-decoration-none text-light">support@pearlzconsulting.com</a>
+                                            
+                                        </li>
+
+                                        <li>
+                                            <a href="#email" class="text-decoration-none text-light">services@pearlzconsulting.com</a>
+                                            
+                                        </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-12 text-md ps-0 psn">
+                    <h3 class="text-25 f-700 pb-3">
+                        Subscribe Now!
+                    </h3>
+
+                    <div class="input-group footer-input-group border border-white cent py-0 my-0 rounded mb-3 input-size text-15 bg-light">
+                        <input type="email" class="form-control me-4 border-0" placeholder="Email Address" aria-label="Recipient's email" aria-describedby="basic-addon2">
+                        <div class="px-1">
+                          <button class="btn  border-0 bg-primary text-15 button-size ms-n5" type="button"><img src="img/Icon.svg" alt=""></button>
+                        </div>
+                      </div>
+
+
+
+                    <!-- <a href="#"><i class="  text-light mx-3 h5"></i></a> -->
+                <a href="#"><i class="bi bi-instagram text-light mx-3 h5"></i></a>
+                <a href="#"><i class="bi bi-twitter text-light mx-3 h5"></i></a>
+                </div>
+            </div>
+        </div>
+
+        
+    </footer>
+
+    
+
+    <div class=" bg-primary text-center py-2">
+        <img src="img/Pearlz Consulting Logo C inv.svg" class="footer-logo-size" alt="">
+        <h3 class="text-15 fw-normal text-light py-1">
+            Copyright © 2022 Pearlz Consulting | All rights reserved.
+        </h3>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>  
+    <script src="./main.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+  <script>
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 70) {
+       $('#nav-bg').addClass('bg-nav-scroll');
+    } else {
+       $('#nav-bg').removeClass('bg-nav-scroll');
+    }
+});
+  </script>
+    
+</body>
+</html>
