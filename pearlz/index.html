@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pearlz Consulting</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+</head>
+<body>
+    <!-- Navbar -->
+
+    <section class="bg-top fixed-top hide">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-3"></div>
+                <div class="col-lg-5 py-0 my-0">
+                    <ul class="d-flex p-0 text-16 f-300 m-0 list-unstyled text-light">
+                    <li class="px-3">
+                        Sales
+                        <span class="f-600">
+                            012 345 6789
+                        </span>
+                    </li>
+
+                    <li class="px-3">
+                        Support
+                        <span class="f-600">
+                            234 567 8900
+                        </span>
+                    </li>
+
+                    <li class="px-3">
+                        |     
+                        <span class="f-600 ps-3">
+                            Contact
+                        </span>
+                        
+                    </li>
+                </ul></div>
+            </div>
+        </div>
+        
+      
+    </section>
+        <!-- this is the element I'm trying to work on,  it is currently transparent but iwant it to be once i scroll so the info in the other sections are not visible behind it-->
+      <nav id="nav-bg" class="navbar navbar-expand-lg bg-nav py-0 magtop mt-4 fixed-top text-21 f-500" >
+        
+                
+
+
+               <div class="container py-0">
+
+            <a href="#" class="navbar-brand">
+                
+                     <img src="img/Pearlz-Consulting-Logo-C@2x.png" class="main-logo-size"  alt="" >
+               
+               
+
+            </a>
+            
+
+           
+
+            <button 
+            class="navbar-toggler collapsed" 
+           data-bs-target="#navmenu" 
+           data-bs-toggle="collapse"
+           id="tog-btn" onclick="myFunction() ">
+               <span class="line text-grey"></span> 
+               <span class="line text-grey"></span> 
+               <span class="line text-grey"></span>
+       </button>
+
+               
+               
+
+            <div class="collapse navbar-collapse text-21 f-500  text-md" id="navmenu">
+                 <ul class="navbar-nav ms-auto text-20">
+                     <li class="nav-item px-4">
+                         <a href="#about" class="nav-link pad-mob text-light">About Us</a>
+                     </li>
+                     <li class="nav-item px-4">
+                       <a href="#training" class="nav-link pad-mob text-light">Services</a>
+                   </li>
+                   <li class="nav-item px-4">
+                       <a href="#resources" class="nav-link pad-mob text-light">News</a>
+                   </li>
+                    <li class="nav-item px-4">
+                        <a href="#contact" class="nav-link pad-mob text-light">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item px-4">  
+                    <button type="button" class="btn mag-mob mag-mob-bot text-18 btn-outline-light text-primary bg-light">Get a Quote</button>
+                    </li>
+                 </ul>
+            </div>
+           </div>
+        
+        
+        
+        
+    </nav>
+
+    <!-- Intro -->
+
+   <section class="section-1 bg-intro">
+       
+    <div class="container text-light pad-contain">
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+                <div class=" border-start border-light border-5 ps-2">
+                    <h1 class="text-84 f-700 pt-0 borderf">
+                    Data Management 
+                </h1>
+                <h2 class="text-48 fw-normal pt-2">
+                    Efficient | Secured | Complaint
+                </h2>
+                </div>
+                
+                <p class="text-21 py-3 fw-normal mw">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vehicula ipsum, a faucibus metus. Donec ornare malesuada ultrices. Maecenas maximus consequat nunc fringilla ultrices. Praesent malesuada nunc at fermentum efficitur. Integer laoreet consectetur.
+                </p>
+                
+                <button type="button" class="btn btn-outline-light f-700 text-14 text-primary bg-light px-4 py-2">Learn More</button>
+                <button type="button" class="btn btn-outline-light f-700 text-14 ms-4  px-4 py-2 pad-right">Get a Quote</button>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-quad">
+       <div class="container py-5">
+        <div class="row">
+            <h3 class="text-24 f-700 text-primary">
+                DATA SERVICES
+            </h3>
+            <div class="col-lg-6 col-md-12 f-800 text-60 text-secondary lh-70 border-data">
+                What Our Data Center Offer
+            </div>
+            <div class="col-lg-6 col-md-12 text-18 fw-normal lh-27 text-grey pt-mob">
+                Proin eu rutrum turpis. Curabitur iaculis massa et venenatis aliquet. Fusce dapibus, enim ut rutrum tempus, lacus diam bibendum turpis, fermentum lobortis orci ligula non est. Nam ornare tincidunt odio, eget molestie purus ultricies eu. Praesent orci purus, finibus a tempus ut, mattis eget justo. Nulla finibus luctus tellus ac placerat.
+            </div>
+        </div>
+       </div>
+
+       <div class="container pt-3 pb-5 dot-border pb-5">
+
+        <div class="row text-left g-lg-5 gx-md-3">
+            <div class="col-md-4 py-2 ">
+                <div class="card edge bg-light px-4 py-4 deploy-card" >
+                    <div class="img-size">
+                        <img src="img/deployment-pic.svg" class="card-img-top img-fluid" alt="...">
+                    </div>
+                    
+                      <h3 class="card-title text-24 fw-normal py-4">Deployment<br>
+                       <span class="f-700">Service</span> </h3>
+    
+                       <div class="pt-3 separator">
+                            <p class="card-text text-15 fw-normal ellipsis">Pearlz Certified platforms and services make securing and enabling compliance of your hosted infrastructure and applications a lot easier.
+                                Our compliance framework is built on best practices to address the most stringent controls for physical, network/perimeter, continuous monitoring, system host, and physical access to facilities. Furthermore, DataBank’s in-house CISO, dedicated security engineering teams, and proven compliance expertise enable us to take ownership of up to 80% of compliance controls, whereas other providers may only provide 10%.</p>
+    
+                                <button type="button" class="btn btn-outline-light btn-size py-2 f-700 text-14 text-light bg-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                  </svg></button>
+                       </div>
+                     
+        
+                    
+                  </div>
+            </div>
+
+        <div class="col-md-4 py-2">
+            <div class="card edge bg-top px-4 py-4 text-light" >
+                <div class="img-size">
+                    <img src="img/compliance-pic.svg" class="card-img-top img-fluid" alt="...">
+                </div>
+                
+                  <h3 class="card-title text-24 fw-normal py-4">Compliance<br>
+                   <span class="f-700">Services</span> </h3>
+
+                   <div class="pt-3 separator2">
+                        <p class="card-text text-15 fw-normal ellipsis">To keep your infrastructure safe, secure, and compliant, you need a multi-layered, defense-in-depth approach backed by professionals who are ready to respond at a moment’s notice. 
+
+                            This is why we provide a broad range of managed security services that you can mix and match to complement your hybrid IT infrastructure. For every solution we deliver, our five-layer defense approach provides comprehensive protection and includes a dedicated team of security engineers and a seasoned CISO.</p>
+
+                            <button type="button" class="btn btn-outline-light btn-size f-700 py-2 text-14 text-primary bg-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                              </svg></button>
+                   </div>
+                 
+    
+                
+              </div>
+        </div>
+
+        <div class="col-md-4 py-2">
+            <div class="card edge bg-dark px-4 py-4 text-light" >
+                <div class="img-size">
+                    <img src="img/protection-pic.svg" class="card-img-top img-fluid" alt="...">
+                </div>
+                
+                  <h3 class="card-title text-24 fw-normal py-4">Data Protection<br>
+                   <span class="f-700">Services</span> </h3>
+
+                   <div class="pt-3 separator">
+                        <p class="card-text text-15 fw-normal ellipsis">Your entire business is data in the digital economy, and every byte must be safeguarded. However, it is no longer just about data backup; it is also about data recovery. We assist you in developing a recovery and backup strategy by combining proven platforms and technologies with managed compliance and security services. We back up, replicate, and recover your files while meeting FedRAMP, HIPAA/HITECH, PCI-DSS, SSAE 18, FISMA, and GDPR – Privacy Shield compliance requirements.</p>
+
+                            <button type="button" class="btn btn-outline-light btn-size protect-btn py-2 f-700 text-14 text-primary bg-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                              </svg></button>
+                   </div>
+                 
+    
+                
+              </div>
+        </div>
+        </div>
+        </div>
+        
+
+        
+
+        
+   </section>
+
+   <section class="py-5 hide"data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-quad">
+       <div class="container pt-5">
+           <div class="row arrange">
+               <div class="col-lg-6 col-md-12 position-relative arrange-2">
+                   <div class="">
+                       <div>
+                           <img src="img/WHo-we-are-img.png" class="img-fluid move-pic" alt="">
+                        </div>
+                      
+
+                   <div class="position-absolute move ">
+                    <iframe width="445" height="286" src="https://www.youtube.com/embed/sHPY8zIhy60" class="move-vid" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div> 
+                </div>
+                   
+
+
+
+               </div>
+               <div class="col-lg-6 col-md-12 text-dark px-4 gap-mob arrange-1">
+
+                <div class="">
+                    <h2 class="text-24 f-700 text-blue">
+                        ABOUT US
+                    </h2>
+                    <h3 class="text-60 f-800 pb-5">
+                        Who We Are
+                    </h3>
+
+                    <p class="text-gray fw-normal text-18 lh-27 ">
+                        Pearlz consulting is a data first Proin eu rutrum turpis. Curabitur iaculis massa et venenatis aliquet. Fusce dapibus, enim ut rutrum tempus, lacus diam bibendum turpis, fermentum lobortis orci ligula non est. Nam ornare tincidunt odio, eget molestie purus ultricies eu. Praesent orci purus, finibus a tempus ut, mattis eget justo. Nulla finibus luctus tellus ac placerat.
+                    </p>
+                </div>
+
+                <div class="row px-2 pt-3  text-md">
+                    <div class="col-lg-5 how-card py-auto   text-15 f-700 duo-border ">
+                        <div class="row">
+                            <div class="col-lg-1 col-md-0">
+
+                            </div>
+                            <div class="col-lg-5 col-md-12 text-md text-end py-4">
+                                <img src="img/25.svg" class="img-fluid" alt="">
+                            </div>
+                            
+                            <div class=" col-lg-5 col-md-12 text-start text-md py-4">Years Of
+                                Experience</div>
+                        
+                    </div>
+                        </div>
+
+                    <div class="col-lg-1">
+
+                    </div>
+
+                    <div class="col-lg-5 how-card mag-mob py-auto text-15 f-700 duo-border">
+                        <div class="row">
+                            <div class="col-lg-1 col-md-0">
+
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-12 py-4 text-center">
+                                <img src="img/global-img.svg" class="img-fluid" alt="">
+                            </div>
+                            
+                            <div class=" col-lg-7 col-md-12 py-4 text-start text-md">The Best Global<br>
+                            Industry Service</div>
+                        
+                    </div>
+                        </div>
+
+                        
+                </div>
+                    
+
+               </div>
+           </div>
+       </div>
+
+       
+        </div>
+    </div>
+   </section>
+
+   
+   <section class="pb-5 show"data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-quad">
+    <div class="container">
+        <div class="row">
+            
+            <div class="text-dark px-4 gap-mob">
+
+             <div class="">
+                 <h2 class="text-24 f-700 text-blue">
+                     ABOUT US
+                 </h2>
+                 <h3 class="text-60 f-800 pb-4">
+                     Who We Are
+                 </h3>
+
+                 <p class="text-gray fw-normal text-18 lh-27 ">
+                     Pearlz consulting is a data first Proin eu rutrum turpis. Curabitur iaculis massa et venenatis aliquet. Fusce dapibus, enim ut rutrum tempus, lacus diam bibendum turpis, fermentum lobortis orci ligula non est. Nam ornare tincidunt odio, eget molestie purus ultricies eu. Praesent orci purus, finibus a tempus ut, mattis eget justo. Nulla finibus luctus tellus ac placerat.
+                 </p>
+             </div>
+
+             <div class="  position-relative  mb-5 pb-5">
+                 <div class="">
+                     <div>
+                         <img src="img/WHo-we-are-img.png" class="img-fluid move-pic" alt="">
+                      </div>
+                    
+
+                 <div class="position-absolute move ">
+                  <iframe width="445" height="286" src="https://www.youtube.com/embed/sHPY8zIhy60" class="move-vid" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div> 
+              </div>
+                 
+
+
+
+             </div>
+
+             <div class="row px-2 pt-3 text-md pt-5 my-5 d-flex justify-content-center">
+                 <div class="col-lg-5 how-card py-4 box-size text-15 mag-mob f-700 duo-border ">
+                     <div class="row">
+                         <div class="col-lg-1 col-md-0">
+
+                         </div>
+                         <div class="col-lg-5 col-md-12 text-md text-end">
+                             <img src="img/25.svg" class="img-fluid" alt="">
+                         </div>
+                         
+                         <div class=" col-lg-5 col-md-12 text-start text-md">Years Of
+                             Experience</div>
+                     
+                 </div>
+                     </div>
+
+                 <div class="col-lg-1">
+
+                 </div>
+
+                 <div class="col-lg-5 how-card box-size text-center pt-3 pb-5 text-15 mag-mob f-700 duo-border">
+                     <div class="row">
+                         <div class="col-lg-1 col-md-0">
+
+                         </div>
+                         
+                         <div class="col-lg-3 col-md-12 text-center">
+                             <img src="img/global-img.svg" class="img-fluid" alt="">
+                         </div>
+                         
+                         <div class=" col-lg-7 col-md-12  text-start text-md">The Best Global<br>
+                         Industry Service</div>
+                     
+                 </div>
+                     </div>
+
+                     
+             </div>
+                 
+
+            </div>
+        </div>
+    </div>
+
+    
+     </div>
+ </div>
+</section>
+
+   <section class="test-back bg-grey" >
+    <div class="container p-5 mob text-md">
+            <div class=" ">
+                
+                
+
+                <div id="carouselExampleDark" class="carousel carousel-dark slide mob  px-5 mx-5 mob text-md" data-bs-ride="carousel" data-bs-touch="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active button-colour slide-but" data-bs-touch="true" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class=" slide-but button-colour" data-bs-touch="true" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class=" slide-but button-colour" data-bs-touch="true" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+
+                        
+                        <div class="row">
+
+                            <div class=" padunset text-center">
+                                <h2 class="text-24 f-700 text-primary">
+                                Testimonials
+                                 </h2>
+        
+                                 <h3 class="text-60 f-800">
+                                 What our Clients Say
+                                </h3>
+                                </div>
+    
+                        </div>
+                    
+
+
+                      <div class="carousel-item  active px-5 padunset" data-bs-interval="2000">
+                          
+
+                        <div class="row pt-3 pb-5">
+
+                        <div class=" col-lg-2 d-flex justify-content-center">
+                        </div>
+
+                        <div class=" col-lg-8 text-left">
+                            <p class="text-left text-18 fw-normal">Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                            
+                            <div class="row">
+
+                                <div class="col-lg-4 text-end show">
+                                    <img src="img/Quotes.svg" class="" alt="">
+                                </div>
+
+                                <div class="col-lg-8">
+                                    <div class="row">
+                                         <div class=" col-4 py-3 col-lg-4 display-inline-block">
+                                         <img src="img/test-photo.svg" class="img-fluid rounded-circle" width="113px"height="114px" alt="..."> 
+                                 </div>
+                                                                
+                                    <div class="col-8 row  justify-content-start align-items-center">
+                                     <h2 class=" text-left text-15 fw-normal btn-primary1">
+                                    <span class=" text-25 fw-normal">David Martin</span><br>
+                                    CALIFORNIA
+                                     </h2>
+                                    </div> 
+                                    </div>
+                                  
+                                </div>
+                                
+
+                                   <div class="col-lg-4 text-end hide">
+                                       <img src="img/Quotes.svg" class="" alt="">
+                                   </div>               
+                            </div>
+
+                            
+                    </div>
+                      </div>
+
+                      
+
+
+                      
+
+
+                      
+
+
+                    </div>
+
+                    <div class="carousel-item  px-5 padunset" data-bs-interval="2000">
+                          
+
+                        <div class="row pt-3 pb-5">
+
+                        <div class=" col-lg-2 d-flex justify-content-center">
+                        </div>
+
+                        <div class=" col-lg-8 text-left">
+                            <p class="text-left text-18 fw-normal">Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                            
+                            <div class="row">
+                                <div class="col-lg-4 text-end show">
+                                    <img src="img/Quotes.svg" class="" alt="">
+                                </div>
+
+                                <div class="col-lg-8">
+                                    <div class="row">
+                                         <div class=" col-4 py-3 col-lg-4 display-inline-block">
+                                         <img src="img/test-photo.svg" class="img-fluid rounded-circle" width="113px"height="114px" alt="..."> 
+                                 </div>
+                                                                
+                                    <div class="col-8 row  justify-content-start align-items-center">
+                                     <h2 class=" text-left text-15 fw-normal btn-primary1">
+                                    <span class=" text-25 fw-normal">David Martin</span><br>
+                                    CALIFORNIA
+                                     </h2>
+                                    </div> 
+                                    </div>
+                                  
+                                </div>
+                                
+
+                                   <div class="col-lg-4 text-end hide">
+                                       <img src="img/Quotes.svg" class="" alt="">
+                                   </div>               
+                            </div>
+
+                            
+                    </div>
+                      </div>
+
+                      
+
+
+                      
+
+
+                      
+
+
+                    </div>
+
+                    <div class="carousel-item  px-5 padunset" data-bs-interval="2000">
+                          
+
+                        <div class="row pt-3 pb-5">
+
+                        <div class=" col-lg-2 d-flex justify-content-center">
+                        </div>
+
+                        <div class=" col-lg-8 text-left">
+                            <p class="text-left text-18 fw-normal">Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                            
+                            <div class="row">
+                                <div class="col-lg-4 text-end show">
+                                    <img src="img/Quotes.svg" class="" alt="">
+                                </div>
+
+                                <div class="col-lg-8">
+                                    <div class="row">
+                                         <div class=" col-4 py-3 col-lg-4 display-inline-block">
+                                         <img src="img/test-photo.svg" class="img-fluid rounded-circle" width="113px"height="114px" alt="..."> 
+                                 </div>
+                                                                
+                                    <div class="col-8 row  justify-content-start align-items-center">
+                                     <h2 class=" text-left text-15 fw-normal btn-primary1">
+                                    <span class=" text-25 fw-normal">David Martin</span><br>
+                                    CALIFORNIA
+                                     </h2>
+                                    </div> 
+                                    </div>
+                                  
+                                </div>
+                                
+
+                                   <div class="col-lg-4 text-end hide">
+                                       <img src="img/Quotes.svg" class="" alt="">
+                                   </div>               
+                            </div>
+
+                            
+                    </div>
+                      </div>
+
+                      
+
+
+                      
+
+
+                      
+
+
+                    </div>
+
+                    
+
+                    
+                      </div>
+                      
+
+
+                    </div>
+
+
+                    
+                  </div>
+            </div>
+
+    </div>
+</section>
+
+    <footer class="p-5 bg-dark " >
+
+        <div class="container text-md">
+
+            <div class="row justify-content-center hide pb-4 log-dot-border text-md">
+
+                <div class="col-md-2 py-2 ">
+                    <div class="" >
+                        <div class="footer-img-size1">
+                            <img src="img/brand-01.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        
+                           </div>
+                         
+            
+                        
+                </div>
+    
+                <div class="col-md-2 py-2 ">
+                    <div class="" >
+                        <div class="footer-img-size2">
+                            <img src="img/brand-02.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        
+                           </div>
+                         
+            
+                        
+                </div>
+    
+                <div class="col-md-2 py-2 ">
+                    <div class="" >
+                        <div class="footer-img-size3">
+                            <img src="img/brand-04.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        
+                           </div>
+                         
+            
+                        
+                </div>
+
+                <div class="col-md-2 py-2 ">
+                    <div class="" >
+                        <div class="footer-img-size4">
+                            <img src="img/brand-05.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        
+                           </div>
+                         
+            
+                        
+                </div>
+
+                <div class="col-md-2 py-2 ">
+                    <div class="" >
+                        <div class="footer-img-size5">
+                            <img src="img/brand-06.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        
+                           </div>
+                         
+            
+                        
+                </div>
+            </div>
+
+            </div>
+
+        <div class="container pt-5">
+            <div class="row text-light mob-x text-18 fw-normal gx-2 gy-5">
+                
+                <div class="col-md-3 hide ps-0">
+                    <h3 class="text-25 f-700 pb-3">
+                        About Us
+                    </h3>
+                    <p class="fw-light text-15 fw-normal">
+                        Lorem ipsum dolor sit amet, consecteur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore 
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris
+                    </p>
+                </div>
+
+                
+
+                <div class="col-lg-3  px-5 hide ">
+
+                    <h3 class="text-25 f-700 pb-3">
+                        Our Links
+                    </h3>
+                    <div class="row  text-15 fw-normal">
+                        <div class="col-lg-5">
+                            <ul class="list-unstyled fw-light">
+                             <li class="">
+                                <a href="#home" class=" text-decoration-none text-light">Home</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#about" class="text-decoration-none text-light">About Us</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#services" class="text-decoration-none text-light">Services</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#news" class="text-decoration-none text-light">News</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#team" class="text-decoration-none text-light">Team</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#contact" class="text-decoration-none text-light">Contact Us</a>
+                                 
+                             </li>
+                         </ul> 
+                         </div>
+
+                         <div class="col-lg-7">
+                            <ul class="list-unstyled fw-light">
+                             <li class="">
+                                <a href="#support" class="text-decoration-none text-light">Support</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#privacy-policy" class="text-decoration-none text-light">Privacy Policy</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#terms-0f-service" class="text-decoration-none text-light">Terms Of Service</a>
+                                 
+                             </li>
+                             <li class="">
+                                <a href="#legal" class="text-decoration-none text-light">Legal</a>
+                                 
+                         </ul> 
+                         </div>
+                    </div>
+
+                    
+                    
+                </div>
+
+                <div class="col-lg-3  text-15 hide ps-0">
+                    <h3 class="text-25  f-700 pb-3">
+                    Contact Us
+                    </h3>
+                    
+                    <ul class="list-unstyled px-2">
+                        <li class="fw-light">
+                            <div class="row">
+                                <div class="col-lg-2 bg-primary align-items-center justify-content-center d-flex rounded">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                      </svg>
+                                </div>
+
+                                <div class="col-lg-10 text-15">
+                                    <a href="#address" class="text-decoration-none text-light">1234/Plot No. 39, 15th Phase,
+                                        Colony</a>
+                                    
+                                  </div>
+                            </div>
+                        </li>
+                        <li class="fw-light py-2">
+                            <div class="row">
+                                <div class="col-lg-2 bg-primary align-items-center justify-content-center d-flex rounded">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                      </svg>
+                                </div>
+
+                                <div class="col-lg-10 text-15">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="phone" class="text-decoration-none text-light">012 345 6789</a>
+                                            
+                                        </li>
+
+                                        <li>
+                                            <a href="#phone" class="text-decoration-none text-light">234 567 8900</a>
+                                            
+                                        </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                        </li>
+
+                        <li class="fw-light">
+                            <div class="row">
+                                <div class="col-lg-2 bg-primary align-items-center justify-content-center d-flex rounded">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                                      </svg>
+                                </div>
+
+                                <div class="col-lg-10 text-15">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#email" class="text-decoration-none text-light">support@pearlzconsulting.com</a>
+                                            
+                                        </li>
+
+                                        <li>
+                                            <a href="#email" class="text-decoration-none text-light">services@pearlzconsulting.com</a>
+                                            
+                                        </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-12 text-md ps-0 psn">
+                    <h3 class="text-25 f-700 pb-3">
+                        Subscribe Now!
+                    </h3>
+
+                    <div class="input-group footer-input-group border border-white cent py-0 my-0 rounded mb-3 input-size text-15 bg-light">
+                        <input type="email" class="form-control me-4 border-0" placeholder="Email Address" aria-label="Recipient's email" aria-describedby="basic-addon2">
+                        <div class="px-1">
+                          <button class="btn  border-0 bg-primary text-15 button-size ms-n5" type="button"><img src="img/Icon.svg" alt=""></button>
+                        </div>
+                      </div>
+
+
+
+                    <!-- <a href="#"><i class="  text-light mx-3 h5"></i></a> -->
+                <a href="#"><i class="bi bi-instagram text-light mx-3 h5"></i></a>
+                <a href="#"><i class="bi bi-twitter text-light mx-3 h5"></i></a>
+                </div>
+            </div>
+        </div>
+
+        
+    </footer>
+
+    
+
+    <div class=" bg-primary text-center py-2">
+        <img src="img/Pearlz Consulting Logo C inv.svg" class="footer-logo-size" alt="">
+        <h3 class="text-15 fw-normal text-light py-1">
+            Copyright © 2022 Pearlz Consulting | All rights reserved.
+        </h3>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>  
+    <script src="./main.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+  <script>
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 70) {
+       $('#nav-bg').addClass('bg-nav-scroll');
+    } else {
+       $('#nav-bg').removeClass('bg-nav-scroll');
+    }
+});
+  </script>
+    
+</body>
+</html>
