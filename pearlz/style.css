@@ -167,6 +167,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.bg-services{
+  background-image: url(img/service-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
 
 .bg-nav {
   background: rgba(33, 87, 251, 0.75);
@@ -380,6 +386,35 @@ body {
 }
 /* background-image: url(img/Menu-Open.svg) !important;
 } */
+
+
+/* Services Page */
+.mauto{
+  margin: 0 auto;
+}
+.what-we-do .w-50{
+  width: 35% !important;
+}
+.what-we-do{
+  position: relative;
+  overflow: hidden;
+}
+.what-we-do .row{
+  position: relative;
+}
+.what-we-do div:first-child{
+  left: 8%;
+}
+.what-we-do div:nth-child(2){
+  left: 16%;
+}
+.what-we-do div:nth-child(3){
+  left: 30%;
+}
+.what-we-do div:nth-child(4){
+  left: 45%;
+}
+
 @media (max-width: 1400px) {
   .data-box-size {
     width: 480px;
@@ -405,7 +440,22 @@ body {
 }
 
 @media (max-width: 991px) {
-
+  .what-we-do div:first-child{
+    left: 0%;
+  }
+  .what-we-do div:nth-child(2){
+    left: 0%;
+  }
+  .what-we-do div:nth-child(3){
+    left: 0%;
+  }
+  .what-we-do div:nth-child(4){
+    left: 0%;
+  }
+  .w-50{
+    width: 90% !important;
+    margin: 0 auto;
+  }
   
   .data-box-size {
     width: inherit !important;
@@ -538,6 +588,9 @@ body {
 }
 
 @media (max-width: 510px) {
+  .w-50{
+    width: 100% !important;
+  }
   .move {
     bottom: -100px;
     left: 20px;
@@ -549,6 +602,9 @@ body {
   .move-pic {
     width: 280px !important;
     height: 223.66px !important;
+  }
+  .what-we-do .row{
+    position: relative;
   }
 }
 
